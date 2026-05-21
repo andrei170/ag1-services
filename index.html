@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AG1 Consulting · Rank #1 In 60 Days · SEO + Website Services</title>
-<meta name="description" content="AI-accelerated SEO + website services for operators. Rank #1 in 60 days. $1M+ generated across two operator partnerships. Less than 7 days to first install. First results in week one.">
+<meta name="description" content="Operator-led SEO + website services. Rank #1 in 60 days. $1M+ generated across two operator partnerships. Less than 14 days to first install.">
 <meta name="theme-color" content="#0A0A0F">
 <meta property="og:title" content="AG1 Consulting · Rank #1 In 60 Days">
-<meta property="og:description" content="AI-accelerated SEO + website services for operators. $1M+ generated across two operator partnerships.">
+<meta property="og:description" content="Operator-led SEO + website services. $1M+ generated across two operator partnerships.">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -240,6 +240,81 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:48px 0 36
 .footer-inner a:hover{color:var(--gold-bright)}
 .footer-links{display:flex;gap:24px;flex-wrap:wrap}
 
+/* ===== 09 — THE SYSTEM ===== */
+.system{background:var(--bg)}
+.system-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:48px 0 56px}
+@media(max-width:880px){.system-stats{grid-template-columns:1fr}}
+.system-stat{padding:36px 28px;background:rgba(20,20,24,0.6);border:1px solid var(--border);border-radius:3px}
+.system-stat .v{font-family:'Inter',sans-serif;font-weight:800;font-size:52px;color:var(--gold);line-height:1;letter-spacing:-0.02em;margin-bottom:10px}
+.system-stat .v em{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;color:var(--gold-bright)}
+.system-stat .l{font-size:13px;color:var(--text-muted);line-height:1.55}
+.casestudy{background:rgba(20,20,24,0.55);border:1px solid var(--border-bright);border-radius:3px;padding:48px 44px;display:grid;grid-template-columns:1fr 1fr;gap:48px}
+@media(max-width:880px){.casestudy{grid-template-columns:1fr;padding:34px 26px;gap:32px}}
+.casestudy-tag{font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:14px}
+.casestudy h3{font-family:'Inter',sans-serif;font-weight:700;font-size:26px;color:var(--text);margin-bottom:18px;letter-spacing:-0.01em;line-height:1.2}
+.casestudy h3 em{font-family:'Cormorant Garamond',serif;font-style:italic;color:var(--gold);font-weight:500}
+.casestudy p{font-size:15px;color:var(--text-muted);line-height:1.75;margin-bottom:28px}
+.casestudy-mini{display:flex;gap:32px;flex-wrap:wrap;border-top:1px solid var(--border);padding-top:24px}
+.casestudy-mini .v{font-family:'Inter',sans-serif;font-weight:800;font-size:30px;color:var(--gold);line-height:1}
+.casestudy-mini .l{font-size:12px;color:var(--text-dim);margin-top:6px;max-width:18ch;line-height:1.4}
+.agents-handle h4{font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold-bright);margin-bottom:18px;font-weight:600}
+.agents-handle ul{list-style:none}
+.agents-handle li{font-size:14px;color:var(--text);padding:13px 0;border-bottom:1px dashed var(--border);display:flex;align-items:flex-start;gap:14px;line-height:1.45}
+.agents-handle li:last-child{border-bottom:0}
+.agents-handle li::before{content:'';width:7px;height:7px;background:var(--gold);border-radius:50%;flex-shrink:0;margin-top:7px}
+
+/* ===== 10 — BEFORE & AFTER ===== */
+.ba{background:var(--bg-elev);overflow:hidden}
+.ba-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:48px}
+@media(max-width:980px){.ba-grid{grid-template-columns:1fr;max-width:560px;margin-left:auto;margin-right:auto}}
+.ba-card{background:rgba(20,20,24,0.5);border:1px solid var(--border);border-radius:4px;overflow:hidden;transition:border-color 0.3s,transform 0.3s}
+.ba-card:hover{border-color:var(--border-bright);transform:translateY(-4px)}
+.ba-panels{display:grid;grid-template-columns:1fr 1fr}
+.ba-panel{position:relative;aspect-ratio:3/4;overflow:hidden}
+.ba-panel.before{background:linear-gradient(160deg,#16161c,#08080c);border-right:1px solid var(--border)}
+.ba-tag{position:absolute;top:10px;left:10px;z-index:6;font-size:9px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;padding:4px 9px;border-radius:2px}
+.ba-tag.b{background:rgba(0,0,0,0.72);color:var(--text-muted);border:1px solid var(--border)}
+.ba-tag.a{background:var(--gold);color:var(--bg)}
+.ba-iframe{position:absolute;inset:0}
+.ba-iframe iframe{position:absolute;top:0;left:0;width:200%;height:200%;transform:scale(0.5);transform-origin:0 0;border:0;pointer-events:none}
+.ba-before-cover{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:18px;gap:14px}
+.ba-dots{display:flex;gap:6px;opacity:0.45}
+.ba-dots span{width:8px;height:8px;border-radius:50%;background:var(--text-dim)}
+.ba-current{font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:var(--text-dim);font-weight:600}
+.ba-domain{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--text-muted);word-break:break-word;line-height:1.4}
+.ba-viewlink{font-size:11px;color:var(--gold);font-weight:600;letter-spacing:0.04em;border:1px solid var(--border-bright);padding:7px 13px;border-radius:2px;transition:all 0.2s;position:relative;z-index:7}
+.ba-viewlink:hover{background:var(--gold-soft);color:var(--gold-bright)}
+.ba-after-link{position:absolute;inset:0;z-index:5}
+.ba-meta{padding:20px 22px}
+.ba-meta h3{font-family:'Inter',sans-serif;font-weight:700;font-size:17px;color:var(--text);margin-bottom:6px}
+.ba-meta p{font-size:13px;color:var(--text-muted);line-height:1.55}
+.ba-meta .open{display:inline-block;margin-top:12px;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);font-weight:600}
+.ba-note{text-align:center;margin-top:32px;font-size:13px;color:var(--text-dim);font-style:italic}
+
+/* ===== 11 — TEAM / OPERATORS ===== */
+.team{background:var(--bg)}
+.team-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:48px}
+@media(max-width:880px){.team-grid{grid-template-columns:1fr}}
+.team-card{padding:40px 36px;background:rgba(20,20,24,0.5);border:1px solid var(--border);border-radius:3px}
+.team-card .role{font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:10px}
+.team-card h3{font-family:'Inter',sans-serif;font-weight:800;font-size:26px;color:var(--text);margin-bottom:18px;letter-spacing:-0.01em}
+.team-card p{font-size:15px;color:var(--text-muted);line-height:1.75;margin-bottom:16px}
+.team-card p:last-child{margin-bottom:0}
+.team-card p strong{color:var(--text);font-weight:600}
+.team-quote{margin-top:48px;text-align:center;max-width:800px;margin-left:auto;margin-right:auto;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(22px,2.6vw,30px);line-height:1.4;color:var(--text)}
+.team-quote .who{display:block;margin-top:18px;font-family:'Inter',sans-serif;font-style:normal;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);font-weight:600}
+.team-tagline{margin-top:44px;text-align:center;font-family:'Bebas Neue',sans-serif;font-size:clamp(28px,4vw,46px);letter-spacing:0.02em;color:var(--gold);line-height:1}
+
+/* ===== CONTACT (within final) ===== */
+.final-contact{margin-top:52px;padding-top:42px;border-top:1px solid var(--border);display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:700px;margin-left:auto;margin-right:auto;text-align:left}
+@media(max-width:680px){.final-contact{grid-template-columns:1fr}}
+.contact-card{padding:24px 26px;background:rgba(20,20,24,0.55);border:1px solid var(--border);border-radius:3px}
+.contact-card .who{font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:10px}
+.contact-card .name{font-family:'Inter',sans-serif;font-weight:700;font-size:18px;color:var(--text);margin-bottom:14px}
+.contact-card a{display:block;color:var(--text);font-size:15px;font-weight:600;margin-bottom:6px;letter-spacing:0.01em;text-decoration:none}
+.contact-card a:hover{color:var(--gold-bright)}
+.contact-card .sub{font-size:12px;color:var(--text-dim);letter-spacing:0.04em;margin-top:6px}
+
 </style>
 </head>
 <body>
@@ -251,7 +326,8 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:48px 0 36
     <div class="nav-links">
       <a href="#numbers">Receipts</a>
       <a href="#method">Method</a>
-      <a href="#portfolio">Portfolio</a>
+      <a href="#before-after">Before/After</a>
+      <a href="#team">Operators</a>
       <a href="#packages">Packages</a>
       <a href="https://calendly.com/ag-copy/call-with-andrei" class="nav-cta">Book a call</a>
     </div>
@@ -266,11 +342,11 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:48px 0 36
     <div class="hero-divider"></div>
     <div class="hero-pillars">
       <div><span>01</span>Keyword Research</div>
-      <div><span>02</span>On-Page + Schema</div>
-      <div><span>03</span>AEO + AI Search</div>
-      <div><span>04</span>Authority + Backlinks</div>
+      <div><span>02</span>On-Page Optimisation</div>
+      <div><span>03</span>Quality Backlinks</div>
+      <div><span>04</span>Ranking Growth</div>
     </div>
-    <p class="hero-sub">AI-accelerated SEO + website services for operators. We rebuild your site, install full SEO + AEO infrastructure, and target page-1 rankings for your highest-intent keywords inside 60 days. <strong>$1M+ generated across two operator partnerships.</strong> Less than 7 days to first install. First measurable results in week one.</p>
+    <p class="hero-sub">Operator-led SEO + website services. We rebuild your site, install full SEO + AEO infrastructure, and target page-1 rankings for your highest-intent keywords inside 60 days. <strong>$1M+ generated across two operator partnerships.</strong> Less than 14 days to first install.</p>
     <div class="hero-cta-row">
       <a href="https://calendly.com/ag-copy/call-with-andrei" class="cta-primary">Book a 20-minute call</a>
       <a href="#numbers" class="cta-ghost">See the receipts</a>
@@ -279,7 +355,7 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:48px 0 36
       <div class="hero-proof-item"><div class="hero-proof-num">$1M<em>+</em></div><div class="hero-proof-label">Generated across<br>two partnerships</div></div>
       <div class="hero-proof-item"><div class="hero-proof-num">$172K</div><div class="hero-proof-label">Best client<br>month-one revenue</div></div>
       <div class="hero-proof-item"><div class="hero-proof-num">25<em>+</em></div><div class="hero-proof-label">Cinematic builds<br>shipped 2026</div></div>
-      <div class="hero-proof-item"><div class="hero-proof-num">&lt; 7 days</div><div class="hero-proof-label">From kickoff to install,<br>first results week one</div></div>
+      <div class="hero-proof-item"><div class="hero-proof-num">&lt; 14 days</div><div class="hero-proof-label">From kickoff<br>to first install</div></div>
     </div>
   </div>
 </section>
@@ -287,9 +363,9 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:48px 0 36
 <!-- ===== 01 — RECEIPTS ===== -->
 <section class="numbers" id="numbers">
   <div class="container">
-    <div class="section-eyebrow">01 &middot; Receipts</div>
+    <div class="section-eyebrow">01 &mdash; Receipts</div>
     <h2 class="section-title">Numbers from <em>two operator partnerships</em>. Anonymised. Verifiable on the call.</h2>
-    <p class="section-sub">Two partnerships. Combined revenue $1M+. Same install playbook on both. Audit + rebuild + content + paid layered together. The numbers below are theirs. The methodology is repeatable for any operator with an existing offer and a real audience.</p>
+    <p class="section-sub">Two partnerships. Combined revenue $1M+. Same install playbook on both. Audit + rebuild + content + paid layered together. The numbers below are theirs &mdash; the methodology is repeatable for any operator with an existing offer and a real audience.</p>
     <div class="numbers-grid">
       <div class="big-numbers">
         <div class="big-num">
@@ -323,29 +399,59 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:48px 0 36
   </div>
 </section>
 
-<!-- ===== 02 — THE TWO NUMBERS THAT MATTER ===== -->
+<!-- ===== 02 — INDUSTRY DATA (cited) ===== -->
 <section class="data" id="data">
   <div class="container">
-    <div class="section-eyebrow">02 &middot; The two numbers</div>
-    <h2 class="section-title">The <em>industry reality</em>. And what our install produces against it.</h2>
-    <p class="section-sub data-intro">Two stats run the entire SEO economy. Every other metric is downstream of these two. We engineer the install around them.</p>
-    <div class="data-grid" style="grid-template-columns:repeat(2,1fr)">
+    <div class="section-eyebrow">02 &mdash; Why this works</div>
+    <h2 class="section-title">The <em>industry data</em> behind every install.</h2>
+    <p class="section-sub data-intro">These are <strong>not our stats</strong>. These are the published industry benchmarks that govern what an operator&rsquo;s site + SEO actually deliver. We engineer the install around these realities; we don&rsquo;t fight them.</p>
+    <div class="data-grid">
       <div class="data-stat">
         <div class="data-stat-icon">i</div>
         <div class="data-stat-body">
-          <div class="data-stat-num">27.6%</div>
-          <div class="data-stat-label">CTR on Position #1. Position #10 gets 2.5%. <strong>75% of users never scroll past page 1.</strong> The math doesn&rsquo;t reward second place; it doesn&rsquo;t even reward the bottom of page 1.</div>
-          <div class="data-stat-source">Source: Backlinko Search Results CTR Study</div>
-          <div class="data-stat-source" style="margin-top:8px;color:var(--gold);font-style:normal"><strong>What we produce:</strong> across two operator partnerships running our install, every page-1 target ranked inside 60 days. $1M+ generated.</div>
+          <div class="data-stat-num">39.8%</div>
+          <div class="data-stat-label">CTR on the top organic Google result. Position 2 takes 18.7%. Position 10 takes 1.6%. The math doesn&rsquo;t reward second place.</div>
+          <div class="data-stat-source">Source: Backlinko 2024 Google CTR Study (4M+ search results analysed)</div>
         </div>
       </div>
       <div class="data-stat">
         <div class="data-stat-icon">i</div>
         <div class="data-stat-body">
-          <div class="data-stat-num">$19.90</div>
-          <div class="data-stat-label">Returned per $1 spent on SEO. Paid traffic returns $4.40 per $1. <strong>SEO compounds; paid stops the moment you stop paying.</strong> The channel-quality gap is structural, not a creative problem.</div>
-          <div class="data-stat-source">Source: Industry SEO ROI benchmarks &middot; Search Engine Journal &middot; First Page Sage</div>
-          <div class="data-stat-source" style="margin-top:8px;color:var(--gold);font-style:normal"><strong>Why this matters to the install:</strong> we front-load SEO + AEO so the asset compounds. Paid traffic is the optional Phase 3 layer, not the foundation.</div>
+          <div class="data-stat-num">14.6%</div>
+          <div class="data-stat-label">Close rate of inbound SEO leads. Cold outbound closes at 1.7%. SEO is not a traffic channel &mdash; it&rsquo;s a higher-intent qualified-lead engine.</div>
+          <div class="data-stat-source">Source: Search Engine Journal / HubSpot State of Inbound</div>
+        </div>
+      </div>
+      <div class="data-stat">
+        <div class="data-stat-icon">i</div>
+        <div class="data-stat-body">
+          <div class="data-stat-num">53%</div>
+          <div class="data-stat-label">Mobile users who abandon a page that takes more than 3 seconds to load. Most operator sites we audit are at 5+ seconds on mobile.</div>
+          <div class="data-stat-source">Source: Google / Think With Google mobile speed research</div>
+        </div>
+      </div>
+      <div class="data-stat">
+        <div class="data-stat-icon">i</div>
+        <div class="data-stat-body">
+          <div class="data-stat-num">68%</div>
+          <div class="data-stat-label">Of online experiences begin with a search engine. The site you ship is the conversion event &mdash; the search ranking is the qualification event.</div>
+          <div class="data-stat-source">Source: BrightEdge Organic Search Industry Report</div>
+        </div>
+      </div>
+      <div class="data-stat">
+        <div class="data-stat-icon">i</div>
+        <div class="data-stat-body">
+          <div class="data-stat-num">10x</div>
+          <div class="data-stat-label">Increase in conversion rate when site load time drops from 5s to under 1s. Speed is conversion. Speed is also a Google ranking signal.</div>
+          <div class="data-stat-source">Source: Google &middot; Portent Site Speed Conversion Study (Aug 2022)</div>
+        </div>
+      </div>
+      <div class="data-stat">
+        <div class="data-stat-icon">i</div>
+        <div class="data-stat-body">
+          <div class="data-stat-num">75%</div>
+          <div class="data-stat-label">Of users never click past the first page of search results. Programmatic + AEO are the only realistic levers for non-page-1 keywords.</div>
+          <div class="data-stat-source">Source: HubSpot SEO Statistics &middot; widely cited industry benchmark</div>
         </div>
       </div>
     </div>
@@ -357,8 +463,8 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:48px 0 36
   <div class="container">
     <div class="method-header">
       <div>
-        <div class="section-eyebrow">03 &middot; The Method</div>
-        <h2 class="section-title">Three phases. <em>Less than 7 days</em> to install. <em>Week-one</em> results.</h2>
+        <div class="section-eyebrow">03 &mdash; The Method</div>
+        <h2 class="section-title">Three phases. <em>Less than 14 days</em> to first install.</h2>
       </div>
       <p class="section-sub">Audit &rarr; rebuild &rarr; compounding ranking layer. Each phase ships before the next begins, so you have working assets in your hand at every stage. No three-month deck-only engagements.</p>
     </div>
@@ -367,15 +473,15 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:48px 0 36
         <div class="method-num">01<em>.</em></div>
         <div class="method-body">
           <h3>Audit + Foundation Rebuild</h3>
-          <p><strong>The first 7 days.</strong> Three-bottleneck audit of your funnel + site + content. Cinematic landing rebuild on AG1&rsquo;s production stack. Email opt-in event installed. Site speed + Core Web Vitals fixed. Schema markup wired. Mobile-first re-engineered. Keyword research locked. <strong>First measurable results land inside the same window:</strong> faster page loads, indexed schema, fixed crawl errors, and the first ranking deltas on long-tail keywords.</p>
+          <p><strong>The first 14 days.</strong> Three-bottleneck audit of your funnel + site + content. Cinematic landing rebuild on AG1&rsquo;s production stack. Email opt-in event installed. Site speed + Core Web Vitals fixed. Schema markup wired. Mobile-first re-engineered. Keyword research locked.</p>
         </div>
-        <div class="method-ship">Ship Day 7<em>Working site live, results moving</em></div>
+        <div class="method-ship">Ship Day 14<em>Working site live</em></div>
       </div>
       <div class="method-step">
         <div class="method-num">02<em>.</em></div>
         <div class="method-body">
           <h3>Content + Authority Buildout</h3>
-          <p><strong>Days 8-60.</strong> Programmatic SEO scaffold (10-50 city/category pages). Long-form chapter content layer mapped to your audience&rsquo;s real search intent. AEO &middot; structured for AI search citations. Internal link architecture. First batch of authority backlinks &middot; PR &middot; citations.</p>
+          <p><strong>Days 15-60.</strong> Programmatic SEO scaffold (10-50 city/category pages). Long-form chapter content layer mapped to your audience&rsquo;s real search intent. AEO &middot; structured for AI search citations. Internal link architecture. First batch of authority backlinks &middot; PR &middot; citations.</p>
         </div>
         <div class="method-ship">Day 60 ranking<em>Page-1 targets land</em></div>
       </div>
@@ -394,7 +500,7 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:48px 0 36
 <!-- ===== 04 — WHAT YOU DO / WHAT WE DO ===== -->
 <section class="split" id="split">
   <div class="container">
-    <div class="section-eyebrow">04 &middot; The split</div>
+    <div class="section-eyebrow">04 &mdash; The split</div>
     <h2 class="section-title">Three things <em>you do.</em> Five things <em>we do.</em></h2>
     <p class="section-sub">The engagement is built so you keep your time. You give us access and feedback; we install the engine.</p>
     <div class="split-grid">
@@ -453,53 +559,53 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:48px 0 36
   <div class="container">
     <div class="portfolio-header">
       <div>
-        <div class="section-eyebrow">05 &middot; Recent builds</div>
-        <h2 class="section-title">Restaurants, HVAC, trades. <em>Shipped from concept</em> to live in days, not months.</h2>
+        <div class="section-eyebrow">05 &mdash; Recent builds</div>
+        <h2 class="section-title">Cinematic sites <em>shipped from concept</em> to live in days, not months.</h2>
       </div>
-      <p class="section-sub" style="max-width:42ch">Local-services operators we&rsquo;ve rebuilt in 2026. Click any one to see the live deploy.</p>
+      <p class="section-sub" style="max-width:42ch">A working portfolio of recent rebuilds. Click any one to see the live deploy. From defence-grade industrial to creator-team content brands.</p>
     </div>
     <div class="portfolio-grid">
-      <a href="https://andrei170.github.io/scott-vann-restaurants-demo/" class="portfolio-card" target="_blank" rel="noopener">
-        <div class="portfolio-iframe-wrap"><iframe src="https://andrei170.github.io/scott-vann-restaurants-demo/" loading="lazy"></iframe></div>
+      <a href="https://andrei170.github.io/fincantieri-marine-demo/" class="portfolio-card" target="_blank" rel="noopener">
+        <div class="portfolio-iframe-wrap"><iframe src="https://andrei170.github.io/fincantieri-marine-demo/" loading="lazy"></iframe></div>
         <div class="portfolio-overlay"></div>
-        <div class="portfolio-meta"><span class="portfolio-tag">Restaurants</span><h3>Scott Vann &middot; 3 Green Bay Restaurants</h3><p>The Creamery, Plank Road, Narrow Bridge &middot; multi-location group rebuild</p></div>
+        <div class="portfolio-meta"><span class="portfolio-tag">Defence</span><h3>Fincantieri Marine Group</h3><p>Cinematic vessel showcase &middot; defence-grade rebuild</p></div>
       </a>
-      <a href="https://andrei170.github.io/garot-plumbing-demo/" class="portfolio-card" target="_blank" rel="noopener">
-        <div class="portfolio-iframe-wrap"><iframe src="https://andrei170.github.io/garot-plumbing-demo/" loading="lazy"></iframe></div>
+      <a href="https://andrei170.github.io/farang-homes-demo/" class="portfolio-card" target="_blank" rel="noopener">
+        <div class="portfolio-iframe-wrap"><iframe src="https://andrei170.github.io/farang-homes-demo/" loading="lazy"></iframe></div>
         <div class="portfolio-overlay"></div>
-        <div class="portfolio-meta"><span class="portfolio-tag">Plumbing + HVAC</span><h3>Garot Plumbing &amp; Heating</h3><p>Green Bay family-owned trade since 1946 &middot; 3-generation rebuild</p></div>
+        <div class="portfolio-meta"><span class="portfolio-tag">Creator brand</span><h3>Farang Homes</h3><p>Thailand property creator team &middot; 16M YouTube views</p></div>
       </a>
       <a href="https://andrei170.github.io/hunter-ballew-hub/" class="portfolio-card" target="_blank" rel="noopener">
         <div class="portfolio-iframe-wrap"><iframe src="https://andrei170.github.io/hunter-ballew-hub/" loading="lazy"></iframe></div>
         <div class="portfolio-overlay"></div>
-        <div class="portfolio-meta"><span class="portfolio-tag">Roofing</span><h3>Hunter Ballew &middot; RoofCON</h3><p>Roofing operator audit + 7-day install plan</p></div>
+        <div class="portfolio-meta"><span class="portfolio-tag">Operator hub</span><h3>Hunter Ballew &middot; RoofCON</h3><p>Roofing operator audit + 7-day install plan</p></div>
       </a>
       <a href="https://andrei170.github.io/karly-gibbens-hub/" class="portfolio-card" target="_blank" rel="noopener">
         <div class="portfolio-iframe-wrap"><iframe src="https://andrei170.github.io/karly-gibbens-hub/" loading="lazy"></iframe></div>
         <div class="portfolio-overlay"></div>
-        <div class="portfolio-meta"><span class="portfolio-tag">Electrical</span><h3>Karly Gibbens &middot; Sparky</h3><p>Electrician operator hub &middot; 269K IG audience</p></div>
+        <div class="portfolio-meta"><span class="portfolio-tag">Trades</span><h3>Karly Gibbens &middot; Sparky</h3><p>Electrician operator hub &middot; 269K IG audience</p></div>
       </a>
-      <a href="https://andrei170.github.io/dans-auto-body-demo/" class="portfolio-card" target="_blank" rel="noopener">
-        <div class="portfolio-iframe-wrap"><iframe src="https://andrei170.github.io/dans-auto-body-demo/" loading="lazy"></iframe></div>
+      <a href="https://andrei170.github.io/sara-bendrick-hub/" class="portfolio-card" target="_blank" rel="noopener">
+        <div class="portfolio-iframe-wrap"><iframe src="https://andrei170.github.io/sara-bendrick-hub/" loading="lazy"></iframe></div>
         <div class="portfolio-overlay"></div>
-        <div class="portfolio-meta"><span class="portfolio-tag">Auto repair</span><h3>Dan&rsquo;s Auto Body</h3><p>Auto-body shop rebuild &middot; cinematic local services</p></div>
+        <div class="portfolio-meta"><span class="portfolio-tag">Design</span><h3>Sara Bendrick &middot; Sarita Landscapes</h3><p>HGTV host + STIHL ambassador rebuild</p></div>
       </a>
-      <a href="https://andrei170.github.io/daves-auto-details-demo/" class="portfolio-card" target="_blank" rel="noopener">
-        <div class="portfolio-iframe-wrap"><iframe src="https://andrei170.github.io/daves-auto-details-demo/" loading="lazy"></iframe></div>
+      <a href="https://andrei170.github.io/christian-osgood-hub/" class="portfolio-card" target="_blank" rel="noopener">
+        <div class="portfolio-iframe-wrap"><iframe src="https://andrei170.github.io/christian-osgood-hub/" loading="lazy"></iframe></div>
         <div class="portfolio-overlay"></div>
-        <div class="portfolio-meta"><span class="portfolio-tag">Auto detailing</span><h3>Dave&rsquo;s Auto Details</h3><p>Detail studio rebuild &middot; cinematic local-services build</p></div>
+        <div class="portfolio-meta"><span class="portfolio-tag">Real estate</span><h3>Christian Osgood &middot; Multifamily Strategy</h3><p>350+ unit operator + 44K IG hub</p></div>
       </a>
     </div>
-    <p style="text-align:center;margin-top:32px;font-size:13px;color:var(--text-dim);font-style:italic">25+ rebuilds shipped across active partnerships and prospect outreach in 2026 &middot; full portfolio walked through on the call.</p>
+    <p style="text-align:center;margin-top:32px;font-size:13px;color:var(--text-dim);font-style:italic">25+ cinematic builds shipped on the AG1 production stack in 2026 &middot; full portfolio walked through on the call.</p>
   </div>
 </section>
 
 <!-- ===== 06 — OPERATOR RECEIPTS (REAL SEO WINS) ===== -->
 <section class="authority" id="authority">
   <div class="container">
-    <div class="section-eyebrow">06 &middot; Operator receipts</div>
+    <div class="section-eyebrow">06 &mdash; Operator receipts</div>
     <h2 class="section-title">Three SEO wins. <em>Week-one</em>, not year-one.</h2>
-    <p class="section-sub">The traditional SEO model bills 12-month engagements because agencies stretch the work to fill the timeline. Our stack lands rankings in days. Three real operator outcomes below. Full attribution where allowed, anonymous where the operator is under NDA.</p>
+    <p class="section-sub">The traditional SEO model bills 12-month engagements because agencies stretch the work to fill the timeline. Our stack lands rankings in days. Three real operator outcomes below &mdash; full attribution where allowed, anonymous where the operator is under NDA.</p>
     <div class="authority-grid">
       <div class="authority-card">
         <div class="authority-quote">SEO AGENT IS PEAK. Just used it for a YouTube video that we made and it&rsquo;s ranking number one for SEO LOL.</div>
@@ -522,9 +628,9 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:48px 0 36
 <section class="packages" id="packages">
   <div class="container">
     <div class="packages-header">
-      <div class="section-eyebrow" style="justify-content:center">07 &middot; Packages</div>
+      <div class="section-eyebrow" style="justify-content:center">07 &mdash; Packages</div>
       <h2 class="section-title">Three packages. <em>One install bar.</em></h2>
-      <p class="section-sub">Foundation gets the site + technical SEO right. Organic adds the compounding content + authority engine. Organic + Paid layers Meta and Google paid traffic on top of the organic stack. Built for operators ready to scale before the SEO compounds.</p>
+      <p class="section-sub">Foundation gets the site + technical SEO right. Organic adds the compounding content + authority engine. Organic + Paid layers Meta and Google paid traffic on top of the organic stack &mdash; for operators ready to scale before the SEO compounds.</p>
     </div>
     <div class="packages-grid">
       <div class="package-card">
@@ -533,7 +639,7 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:48px 0 36
           <span class="package-name">Foundation</span>
         </div>
         <div class="package-body">
-          <p class="package-pitch">Cinematic site rebuild on the AG1 production stack. Three-bottleneck audit + new build + email opt-in event + speed + schema. <strong>Live in less than 7 days. First measurable results in week one.</strong></p>
+          <p class="package-pitch">Cinematic site rebuild on the AG1 production stack. Three-bottleneck audit + new build + email opt-in event + speed + schema. <strong>Live in less than 14 days.</strong></p>
           <ul class="package-features">
             <li>Three-bottleneck site audit</li>
             <li>Full cinematic rebuild + copy</li>
@@ -551,7 +657,7 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:48px 0 36
           <span class="package-name">Organic</span>
         </div>
         <div class="package-body">
-          <p class="package-pitch">Foundation plus the 60-day SEO + content + authority buildout. <strong>The flagship engagement. What the $172K-month-one client ran.</strong> Page-1 targets locked inside 60 days.</p>
+          <p class="package-pitch">Foundation plus the 60-day SEO + content + authority buildout. <strong>The flagship engagement &mdash; what the $172K-month-one client ran.</strong> Page-1 targets locked inside 60 days.</p>
           <ul class="package-features">
             <li>Everything in Foundation</li>
             <li>Programmatic SEO scaffold</li>
@@ -589,47 +695,230 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:48px 0 36
 <!-- ===== 08 — FAQ ===== -->
 <section class="faq" id="faq">
   <div class="container-narrow">
-    <div class="section-eyebrow">08 &middot; FAQ</div>
+    <div class="section-eyebrow">08 &mdash; FAQ</div>
     <h2 class="section-title">The questions <em>operators ask</em> before they book.</h2>
     <div class="faq-list">
       <div class="faq-item">
         <div class="faq-q">Will the &ldquo;rank #1 in 60 days&rdquo; promise hold for my business?</div>
-        <div class="faq-a">For commercial-intent keywords with reasonable competition: yes. For ultra-competitive head terms (&ldquo;car insurance&rdquo;, &ldquo;crm software&rdquo;), no. Nobody honestly promises that. <strong>We benchmark on the call against your reality.</strong> The keywords we target are the ones we&rsquo;re ranking inside 60 days; we&rsquo;ll tell you which ones those are before you sign.</div>
+        <div class="faq-a">For commercial-intent keywords with reasonable competition: yes. For ultra-competitive head terms (&ldquo;car insurance&rdquo;, &ldquo;crm software&rdquo;), no &mdash; nobody honestly promises that. <strong>We benchmark on the call against your reality.</strong> The keywords we target are the ones we&rsquo;re ranking inside 60 days; we&rsquo;ll tell you which ones those are before you sign.</div>
       </div>
       <div class="faq-item">
-        <div class="faq-q">Will the &ldquo;less than 7 days&rdquo; install hold?</div>
-        <div class="faq-a">If you have an offer, content, and brand assets ready, yes. If you&rsquo;re still figuring out positioning or have no audience, we add a short pre-engagement to lock that in. <strong>Kickoff happens before day-one billing</strong> so the clock starts when we both agree the foundation is set. First measurable results (speed gains, indexed schema, long-tail ranking deltas) land inside the same first-week window.</div>
+        <div class="faq-q">Will the &ldquo;less than 14 days&rdquo; install hold?</div>
+        <div class="faq-a">If you have an offer, content, and brand assets ready, yes. If you&rsquo;re still figuring out positioning or have no audience, we add a 7-day pre-engagement to lock that in &mdash; <strong>kickoff happens before day-one billing</strong> so the clock starts when we both agree the foundation is set.</div>
       </div>
       <div class="faq-item">
         <div class="faq-q">Can you replicate the $172K-month-one number for me?</div>
-        <div class="faq-a">No promises. That number depends on the client&rsquo;s audience, offer, and prior funnel state. <strong>What we promise is the install: the working stack, on time, to the AG1 quality bar.</strong> The rest is your offer and your audience.</div>
+        <div class="faq-a">No promises. That number depends on the client&rsquo;s audience, offer, and prior funnel state. <strong>What we promise is the install &mdash; the working stack, on time, to the AG1 quality bar.</strong> The rest is your offer and your audience.</div>
       </div>
       <div class="faq-item">
         <div class="faq-q">Why pair website + SEO instead of just one?</div>
-        <div class="faq-a">SEO without a converting site loses the traffic. A converting site without SEO leaves the lead-gen channel dormant. <strong>The two compound. The site is the conversion engine; the SEO layer is the qualified-lead engine.</strong> Most operators we audit have both half-built and neither working.</div>
+        <div class="faq-a">SEO without a converting site loses the traffic. A converting site without SEO leaves the lead-gen channel dormant. <strong>The two compound &mdash; the site is the conversion engine; the SEO layer is the qualified-lead engine.</strong> Most operators we audit have both half-built and neither working.</div>
       </div>
       <div class="faq-item">
         <div class="faq-q">Is this safe for a regulated industry / NDA-bound operator?</div>
-        <div class="faq-a">Yes. Compliance-aware copy is part of the install for licensed operators (CFP, RIA, MD, attorney). We&rsquo;ve worked with NDA-bound clients before. Both partnerships referenced on this page are NDA-bound. <strong>We don&rsquo;t name clients on a sales page; we walk receipts on the call under mutual NDA if needed.</strong></div>
+        <div class="faq-a">Yes. Compliance-aware copy is part of the install for licensed operators (CFP, RIA, MD, attorney). We&rsquo;ve worked with NDA-bound clients before &mdash; both partnerships referenced on this page are NDA-bound. <strong>We don&rsquo;t name clients on a sales page; we walk receipts on the call under mutual NDA if needed.</strong></div>
       </div>
       <div class="faq-item">
         <div class="faq-q">What does the discovery call look like?</div>
-        <div class="faq-a">20 minutes. Your funnel state, your numbers, your team, your offer. We tell you what we&rsquo;d ship in the first 7 days and what we&rsquo;d skip. No deck, no pressure. <strong>You leave with a 3-bottleneck audit even if you don&rsquo;t engage.</strong></div>
+        <div class="faq-a">20 minutes. Your funnel state, your numbers, your team, your offer. We tell you what we&rsquo;d ship in the first 14 days and what we&rsquo;d skip. No deck, no pressure. <strong>You leave with a 3-bottleneck audit even if you don&rsquo;t engage.</strong></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== 09 — FINAL ===== -->
+<!-- ===== 09 — THE SYSTEM ===== -->
+<section class="system" id="system">
+  <div class="container">
+    <div class="section-eyebrow">09 &mdash; The system</div>
+    <h2 class="section-title">The numbers behind <em>the system.</em></h2>
+    <p class="section-sub">The same AI operating system that runs our marketing book now runs every SEO and website install. Built on a private vault of 60+ skills and 60+ tested playbooks, it ships in days what a traditional agency stretches across quarters.</p>
+
+    <div class="system-stats">
+      <div class="system-stat">
+        <div class="v">$1M<em>+</em></div>
+        <div class="l">Combined revenue generated across operator partnerships run on the AG1 system.</div>
+      </div>
+      <div class="system-stat">
+        <div class="v">14 <span style="font-size:0.5em;font-weight:600;color:var(--text-muted)">days</span></div>
+        <div class="l">From assessment to a fully operational, ranking-ready site. Working assets in hand, not a deck.</div>
+      </div>
+      <div class="system-stat">
+        <div class="v">25<em>+</em></div>
+        <div class="l">Cinematic sites shipped on the AG1 production stack in 2026. Concept to live in days.</div>
+      </div>
+    </div>
+
+    <div class="casestudy">
+      <div>
+        <div class="casestudy-tag">Case study &middot; AG1 production stack</div>
+        <h3>The AG1 <em>AI-SEO</em> operating system.</h3>
+        <p>A high-ticket operator needed to rank and convert without hiring an agency or standing up a content team. We installed a full AI operating system: research agents map the keyword and intent landscape, copy agents produce the long-form and programmatic pages, build agents ship the site, and AEO agents structure everything for AI-search citation. Every deliverable runs through agent workflows and clears a fixed quality bar before it goes live.</p>
+        <div class="casestudy-mini">
+          <div><div class="v">60+</div><div class="l">Marketing + SEO skills in the vault</div></div>
+          <div><div class="v">60+</div><div class="l">Tested SOPs behind every deliverable</div></div>
+          <div><div class="v">100%</div><div class="l">Of the install runs through agent workflows</div></div>
+        </div>
+      </div>
+      <div class="agents-handle">
+        <h4>What the agents handle</h4>
+        <ul>
+          <li>Keyword and intent research, competitor mapping</li>
+          <li>Long-form content and programmatic SEO pages</li>
+          <li>AEO structuring for AI-search citations</li>
+          <li>Schema markup and technical SEO</li>
+          <li>Site rebuild, copy, and deployment</li>
+          <li>Internal link architecture</li>
+          <li>Authority, PR, and citation buildout</li>
+          <li>Rank, traffic, and revenue tracking</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 10 — BEFORE & AFTER ===== -->
+<section class="ba" id="before-after">
+  <div class="container">
+    <div class="section-eyebrow">10 &mdash; Before &amp; after</div>
+    <h2 class="section-title">The same sites, <em>rebuilt</em> as ranking engines.</h2>
+    <p class="section-sub">Real local operators. Their current live site on the left, the AG1 rebuild on the right. Open either one and judge for yourself.</p>
+
+    <div class="ba-grid">
+
+      <div class="ba-card">
+        <div class="ba-panels">
+          <div class="ba-panel before">
+            <span class="ba-tag b">Before</span>
+            <div class="ba-before-cover">
+              <div class="ba-dots"><span></span><span></span><span></span></div>
+              <div class="ba-current">Current live site</div>
+              <div class="ba-domain">renrejuvenationbar.com</div>
+              <a href="https://renrejuvenationbar.com" class="ba-viewlink" target="_blank" rel="noopener">View current site &#8599;</a>
+            </div>
+          </div>
+          <div class="ba-panel after">
+            <span class="ba-tag a">After</span>
+            <div class="ba-iframe"><iframe src="https://andrei170.github.io/ren-rejuvenation-bar-site/" loading="lazy" title="REN Rejuvenation Bar rebuild"></iframe></div>
+            <a href="https://andrei170.github.io/ren-rejuvenation-bar-site/" class="ba-after-link" target="_blank" rel="noopener" aria-label="Open REN Rejuvenation Bar rebuild"></a>
+          </div>
+        </div>
+        <div class="ba-meta">
+          <h3>REN Rejuvenation Bar</h3>
+          <p>Med-spa &middot; faster, mobile-first rebuild with booking-led layout and local SEO structure.</p>
+          <a href="https://andrei170.github.io/ren-rejuvenation-bar-site/" class="open" target="_blank" rel="noopener">Open the rebuild &#8599;</a>
+        </div>
+      </div>
+
+      <div class="ba-card">
+        <div class="ba-panels">
+          <div class="ba-panel before">
+            <span class="ba-tag b">Before</span>
+            <div class="ba-before-cover">
+              <div class="ba-dots"><span></span><span></span><span></span></div>
+              <div class="ba-current">Current live site</div>
+              <div class="ba-domain">ashbrooke.net</div>
+              <a href="https://ashbrooke.net" class="ba-viewlink" target="_blank" rel="noopener">View current site &#8599;</a>
+            </div>
+          </div>
+          <div class="ba-panel after">
+            <span class="ba-tag a">After</span>
+            <div class="ba-iframe"><iframe src="https://andrei170.github.io/the-ashbrooke-site/" loading="lazy" title="The Ashbrooke rebuild"></iframe></div>
+            <a href="https://andrei170.github.io/the-ashbrooke-site/" class="ba-after-link" target="_blank" rel="noopener" aria-label="Open The Ashbrooke rebuild"></a>
+          </div>
+        </div>
+        <div class="ba-meta">
+          <h3>The Ashbrooke</h3>
+          <p>Boutique hotel &middot; cinematic lodging showcase built to capture high-intent local search.</p>
+          <a href="https://andrei170.github.io/the-ashbrooke-site/" class="open" target="_blank" rel="noopener">Open the rebuild &#8599;</a>
+        </div>
+      </div>
+
+      <div class="ba-card">
+        <div class="ba-panels">
+          <div class="ba-panel before">
+            <span class="ba-tag b">Before</span>
+            <div class="ba-before-cover">
+              <div class="ba-dots"><span></span><span></span><span></span></div>
+              <div class="ba-current">Current live site</div>
+              <div class="ba-domain">eastsideexhaust.com</div>
+              <a href="https://www.eastsideexhaust.com/" class="ba-viewlink" target="_blank" rel="noopener">View current site &#8599;</a>
+            </div>
+          </div>
+          <div class="ba-panel after">
+            <span class="ba-tag a">After</span>
+            <div class="ba-iframe"><iframe src="https://andrei170.github.io/east-side-exhaust-site/" loading="lazy" title="East Side Exhaust rebuild"></iframe></div>
+            <a href="https://andrei170.github.io/east-side-exhaust-site/" class="ba-after-link" target="_blank" rel="noopener" aria-label="Open East Side Exhaust rebuild"></a>
+          </div>
+        </div>
+        <div class="ba-meta">
+          <h3>East Side Exhaust</h3>
+          <p>Auto exhaust shop &middot; service-led rebuild with quote flow and local ranking structure.</p>
+          <a href="https://andrei170.github.io/east-side-exhaust-site/" class="open" target="_blank" rel="noopener">Open the rebuild &#8599;</a>
+        </div>
+      </div>
+
+    </div>
+    <p class="ba-note">Live deploys on the AG1 production stack. Click any &ldquo;before&rdquo; to see the operator&rsquo;s current site, any &ldquo;after&rdquo; to open the rebuild.</p>
+  </div>
+</section>
+
+<!-- ===== 11 — BUILT BY OPERATORS ===== -->
+<section class="team" id="team">
+  <div class="container">
+    <div class="section-eyebrow">11 &mdash; The operators</div>
+    <h2 class="section-title">Built by operators. <em>Not theorists.</em></h2>
+    <p class="section-sub">Two operators behind every install. One built the AI fulfillment engine. One runs the sales room. Every system we sell is a system we run ourselves.</p>
+
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="role">Co-Founder &middot; Build + SEO</div>
+        <h3>Andrei Givero</h3>
+        <p>Self-taught full-stack marketer. Started AG1 Consulting in early 2024 with no team and no agency overhead. Inside the first six months, generated <strong>$1M+ in client revenue as a single operator</strong>, with a best month of <strong>$172k in revenue for one client in the first 30 days</strong>.</p>
+        <p>Built the entire fulfillment engine on AI agent workflows: a private vault of 60+ marketing and SEO skills, 60+ tested SOPs, and a deploy-graded pipeline. Every site, page, and ranking system ships through that stack.</p>
+      </div>
+      <div class="team-card">
+        <div class="role">Co-Founder &middot; Sales</div>
+        <h3>Nate &middot; Closers Circle Pro</h3>
+        <p>Nine years in sales, six of them face to face, including a run as <strong>one of the top three reps at a Fortune 500 company</strong>. Built two coaching communities from word of mouth alone, 275+ members combined, and runs a closer-and-setter placement offer with a paid-or-it-does-not-count guarantee.</p>
+        <p>Best single cohort <strong>collected over $30,000 in a week</strong>, entirely word of mouth. Runs the sales engine end to end: scripts, placement, training, and the room.</p>
+      </div>
+    </div>
+
+    <blockquote class="team-quote">
+      &ldquo;I&rsquo;m great at training. I get people jobs. I get great results. I&rsquo;ve run cohorts in the past and cash collected a lot.&rdquo;
+      <span class="who">Nate &middot; Closers Circle Pro</span>
+    </blockquote>
+
+    <div class="team-tagline">Every system we sell is a system we run.</div>
+  </div>
+</section>
+
+<!-- ===== 12 — FINAL ===== -->
 <section class="final" id="final">
   <div class="container final-inner">
-    <div class="section-eyebrow" style="justify-content:center">09 &middot; Book the call</div>
-    <p class="final-urgency" style="font-style:italic;color:var(--text-muted);font-size:13px;letter-spacing:0.04em;margin-bottom:18px;text-align:center;max-width:640px;margin-left:auto;margin-right:auto">Every month you wait, the operator above you on Google compounds. Backlinks, content depth, topical authority. A 6-month head start = a 1-2 year catch-up window.</p>
+    <div class="section-eyebrow" style="justify-content:center">12 &mdash; Book the call</div>
     <h2>Twenty minutes. <em>Three bottlenecks.</em> Yours to keep.</h2>
-    <p>Pick a slot. Bring your current numbers. Leave with a written 3-bottleneck audit and a clear estimate of what AG1 would install in the first 7 days. Engagement or not.</p>
+    <p>Pick a slot. Bring your current numbers. Leave with a written 3-bottleneck audit and a clear estimate of what AG1 would install in the first 14 days, engagement or not.</p>
     <div class="final-cta-row">
       <a href="https://calendly.com/ag-copy/call-with-andrei" class="cta-primary">Book the 20-minute call</a>
     </div>
+
+    <div class="final-contact">
+      <div class="contact-card">
+        <div class="who">Sales &middot; text or call</div>
+        <div class="name">Nate</div>
+        <a href="tel:+19139077615">&#43;1 (913) 907-7615</a>
+        <a href="mailto:nherbusiness@gmail.com">nherbusiness@gmail.com</a>
+        <div class="sub">Closers Circle Pro &middot; fastest way to reach us</div>
+      </div>
+      <div class="contact-card">
+        <div class="who">Builds &middot; email</div>
+        <div class="name">Andrei Givero</div>
+        <a href="mailto:info@andreicopy.net">info@andreicopy.net</a>
+        <div class="sub">AG1 Consulting Ltd &middot; United Kingdom</div>
+      </div>
+    </div>
+
     <p class="final-meta">Andrei Givero &middot; AG1 Consulting Ltd &middot; <a href="mailto:info@andreicopy.net">info@andreicopy.net</a></p>
   </div>
 </section>
@@ -642,9 +931,10 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:48px 0 36
       <a href="#numbers">Receipts</a>
       <a href="#method">Method</a>
       <a href="#portfolio">Portfolio</a>
+      <a href="#before-after">Before/After</a>
+      <a href="#team">Operators</a>
       <a href="#packages">Packages</a>
       <a href="#faq">FAQ</a>
-      <a href="https://andrei170.github.io/ag1/">Info product partnership</a>
       <a href="https://calendly.com/ag-copy/call-with-andrei">Book a call</a>
     </div>
   </div>

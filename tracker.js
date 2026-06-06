@@ -11,7 +11,7 @@
  */
 (function () {
   // ===== CONFIG =====
-  var ENDPOINT = 'PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE';
+  var ENDPOINT = 'https://script.google.com/macros/s/AKfycbzAog92HV-MccnPd3C6p_JnTTdgsveBHMK1OHuGXc_D9rnJ6qtiybL0gUhH5ew0XJKp/exec';
   var TOKEN = 'ag1-open-trigger';            // must match SHARED_TOKEN in the Apps Script
   var OPEN_DELAY_MS = 4000;                   // must stay this long for it to count as a real open
   var ENGAGED_SCROLL = 0.6;                   // 60% scroll depth = "engaged" (logged, no alert)
